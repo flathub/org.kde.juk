@@ -6,6 +6,7 @@
   "command": "juk",
   "rename-icon": "juk",
   "finish-args": [
+    "--device=dri",
     "--share=ipc",
     "--share=network",
     "--socket=wayland",
