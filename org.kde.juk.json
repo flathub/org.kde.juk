@@ -1,36 +1,36 @@
 {
-  "app-id": "org.kde.juk",
-  "runtime": "org.kde.Platform",
-  "runtime-version": "5.15-21.08",
-  "sdk": "org.kde.Sdk",
-  "command": "juk",
-  "rename-icon": "juk",
-  "finish-args": [
-    "--device=dri",
-    "--share=ipc",
-    "--share=network",
-    "--socket=wayland",
-    "--socket=fallback-x11",
-    "--socket=pulseaudio",
-    "--filesystem=xdg-music"
-  ],
-  "modules": [
-    {
-      "name": "juk",
-      "buildsystem": "cmake-ninja",
-      "sources": [
+    "app-id": "org.kde.juk",
+    "runtime": "org.kde.Platform",
+    "runtime-version": "5.15-21.08",
+    "sdk": "org.kde.Sdk",
+    "command": "juk",
+    "rename-icon": "juk",
+    "finish-args": [
+        "--device=dri",
+        "--share=ipc",
+        "--share=network",
+        "--socket=wayland",
+        "--socket=fallback-x11",
+        "--socket=pulseaudio",
+        "--filesystem=xdg-music"
+    ],
+    "modules": [
         {
-          "type": "archive",
-          "url": "https://download.kde.org/stable/release-service/22.08.1/src/juk-22.08.1.tar.xz",
-          "sha256": "aaffc925e724a79914fb50e9254e8fcc9a04d429e64e61ee4eb56b36029f355d",
-          "x-checker-data": {
-            "type": "anitya",
-            "project-id": 8763,
-            "stable-only": true,
-            "url-template": "https://download.kde.org/stable/release-service/$version/src/juk-$version.tar.xz"
-          }
+            "name": "juk",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.08.2/src/juk-22.08.2.tar.xz",
+                    "sha256": "af041257287495034529fb0eb2d537c8a8a964403a061eb6187e23c1f5c1f7ea",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/juk-$version.tar.xz"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
