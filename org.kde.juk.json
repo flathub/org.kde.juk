@@ -21,8 +21,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.4/src/juk-23.08.4.tar.xz",
-                    "sha256": "595d2138756ab360929d3f9fc9faca0c2f65090511e86847105e8720512029ab",
+                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/juk-23.08.5.tar.xz",
+                    "sha256": "c774267da46c80f36dd4bf5b247831cb34b16f9c11e7be114371697175a1ad71",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
