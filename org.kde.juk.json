@@ -7,12 +7,14 @@
     "rename-icon": "juk",
     "finish-args": [
         "--device=dri",
+        "--filesystem=xdg-music",
         "--share=ipc",
         "--share=network",
-        "--socket=wayland",
         "--socket=fallback-x11",
         "--socket=pulseaudio",
-        "--filesystem=xdg-music"
+        "--socket=wayland",
+        "--talk-name=org.kde.StatusNotifierWatcher",
+        "--talk-name=org.kde.kglobalaccel"
     ],
     "modules": [
         {
