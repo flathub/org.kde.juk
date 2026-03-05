@@ -16,7 +16,7 @@
         "--talk-name=org.kde.StatusNotifierWatcher",
         "--talk-name=org.kde.kglobalaccel"
     ],
-     "cleanup": [
+    "cleanup": [
         "/include",
         "/lib/cmake",
         "/lib/pkgconfig",
@@ -32,8 +32,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/juk-25.12.2.tar.xz",
-                    "sha256": "0db052e1796ae16db3ab51cba2973b91a88a82e0a7783be0c7fed03cfd3ec5a7",
+                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/juk-25.12.3.tar.xz",
+                    "sha256": "75a10c8707f83fd76e08c9608723b5181d9f828d7d50e21763d1fd25623fdd04",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
